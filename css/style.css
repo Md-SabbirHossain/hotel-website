@@ -91,6 +91,9 @@ p{
 .lead{
     font-size: 20px;
 }
+
+
+/* *******************Button*******************   */
 .btn{
     display: inline-block;
     font-size: 20px;
@@ -104,4 +107,82 @@ p{
 .btn:hover{
     color:#fff;
     background-color:tomato;
+}
+.btn-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*   **************Button********************   */
+
+
+/*   ****************Home-info*******************  */
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background-image: url(../images/photo-1.jpg);
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align:center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+/* Bg color  */
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-primary{
+    background-color: tomato;
+    color: #fff;
+
+}
+.clr{
+    clear: both;
+}
+/* Bg color End   */
+.info-content p{
+    padding-bottom: 30px;
+}
+
+
+/*   ****************Home-info END*******************  */
+
+/* feacture   Box  */
+.box{
+    float: left;
+    width: 33%;
+    padding: 50px;
+    height: 300px;
+    text-align: center;
+}
+
+/******** Icon Color Change */
+/* .fa-dumbbell{
+    color:;
+} */
+
+.box i{
+    padding-bottom: 10px;
+}
+/* feacture   Box END */
+
+/* Footer  */
+footer{
+    background-color: #333;
+    color: #fff;
+    padding:10px;
+    text-align: center;
+}
+footer a{
+    color: #fff;
 }
