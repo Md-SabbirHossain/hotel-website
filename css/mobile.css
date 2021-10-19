@@ -1,0 +1,75 @@
+/*     **********************NAVBAR***********      */
+.navbar .logo{
+    float:none;
+    text-align: center;
+}
+.navbar ul,.navbar li{
+    list-style:none;
+    float:none;
+}
+.navbar ul li a{
+    padding: 5px;
+    border-bottom: 1px solid #444;
+    
+}
+
+    
+/*     **********************NAVBAR END************/
+
+/***************** showcase ***************/
+.showcase-content{
+    height: 100%;
+    padding-top:100px;
+    padding-bottom: 20px;
+   
+}
+/*   ****************Home-info*******************  */
+#home-info .info-img{
+    display: none;
+}
+
+#home-info .info-content{
+    float:none;
+    width:100%;
+    text-align:center;
+    padding:30px 20px;
+    padding-bottom: 5px;
+  
+} 
+
+
+/*   ****************Home-info END*******************  */
+
+/****************** Box *********************/
+.box{
+    width: 100%;
+}
+
+/****************** Box End *********************/
+
+/* About page Css */
+.info-right,
+.info-left{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.info-right img{
+   margin-top: 20px;
+}
+#testimonials .l-heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*************************** contract page ***********************/
+.form-group input,
+.form-group textarea{
+    width: 100%;
+}
+
+
+#info-content .box{
+    border-bottom: 1px solid #444;
+}
